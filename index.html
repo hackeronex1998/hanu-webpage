@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>---HANOI UNIVERSITY OFFICAL---</title>
+  <link rel="icon" href="img/hanu_icon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+
+  <div class="wrapper">
+    <!-- Navigation -->
+    <div class="my-navbar">
+      <div class="my-inner-navbar">
+        <img class="my-nav-logo" src="img/hanu_icon.ico" alt="hanu-logo">
+        <a href="#">Hanoi University</a>
+        <div class="my-menu">
+          <ul>
+            <li><a href="#" class="active">Trang chủ</a></li>
+            <li><a href="#gioithieu">Giới thiệu</a></li>
+            <li><a href="#chuongtrinhdaotao">Đào tạo</a></li>
+            <li><a href="#thongtinduhoc">Thông tin du học</a></li>
+            <li><a href="#nghiencuukhoahoc">Nghiên cứu khoa học</a></li>
+            <li><a href="#lienhe">Liên hệ</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="my-toggle-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+
+    <!-- Banner -->
+    <div class="banner">
+      <!-- slide show here -->
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="img/banner.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/artboard_1.png" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/artboard_2.png" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/artboard_4.png" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/artboard_5.png" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/artboard_6.png" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/artboard_7.png" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/artboard_8.png" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/artboard_3.png" alt="Third slide">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Intro -->
+    <section id="gioithieu" class="top-container">
+      <div class="showcase">
+        <div class="background-img"></div>
+        <header class="intro">
+          <h2>Hanoi University</h2>
+          <p>Với 11 ngành ngoại ngữ; 9 chuyên ngành khác ngoài ngôn ngữ, dạy-học hoàn toàn bằng ngoại ngữ;
+            6 trung tâm đào tạo và hợp tác quốc tế… Trường Đại học Hà Nội tự hào là cơ sở giáo dục hàng đầu
+            của cả nước trong đào tạo, nghiên cứu về ngoại ngữ và chuyên ngành bằng ngoại ngữ.
+            Được thành lập từ năm 1959 với tên gọi ban đầu<span id="dots">...</span><span id="more"> Trường Đại
+              học Ngoại ngữ, trải qua hơn nửa thế kỉ hoạt động,Trường đã từng bước khẳng định vị thế là
+              trường đại học công lập uy tín trong đào tạo ngoại ngữ ở cả ba cấp độ Cử nhân, Thạc sĩ, Tiến sĩ.
+              Đây cũng là trường đại học đầu tiên của Việt Nam đào tạo chính quy 08 chương trình cử nhân chuyên
+              ngành hoàn toàn bằng tiếng Anh và 01 chương trình đào tạo bằng tiếng Pháp.</span>
+            <button class="read-more-btn" onclick="readMoreFunction()" id="read-more-btn">Xem thêm</button>
+          </p>
+        </header>
+      </div>
+      <div class="top-box top-box-a">
+        <header>
+          <i class="far fa-newspaper fa-4x"></i>
+          <h4>Tin tức</h4>
+        </header>
+        <ul>
+          <li>
+            <a href="#">Hội thảo hướng nghiệp</a>
+          </li>
+          <li>
+            <a href="#">Thông báo lịch học</a>
+          </li>
+          <li>
+            <a href="#">Công tác trao đổi sinh viên</a>
+          </li>
+        </ul>
+        <a href="" class="btn">Xem thêm</a>
+      </div>
+      <div class="top-box top-box-b">
+        <header>
+          <i class="fas fa-user-graduate fa-4x"></i>
+          <h4 class="header-tuyensinh">Tuyển sinh</h4>
+        </header>
+        <ul>
+          <li>
+            <a href="#">Đồng hành cùng học sinh lớp 12</a>
+          </li>
+          <li>
+            <a href="#">Đại học</a>
+          </li>
+          <li>
+            <a href="#">Sau đại học</a>
+          </li>
+          <li>
+            <a href="#">Đào tạo quốc tế chính quy</a>
+          </li>
+          <li>
+            <a href="#">Khoá học ngắn hạn</a>
+          </li>
+        </ul>
+        <a href="" class="btn">Xem thêm</a>
+      </div>
+    </section>
+
+
+    <!-- Boxes Section -->
+    <h2 id="chuongtrinhdaotao">Chương trình đào tạo</h2>
+    <section class="boxes">
+      <div class="box">
+        <div class="card card-odd">
+          <img class="card-img-top" src="img/chinhquy.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Đào tạo chính quy</h5>
+            <p class="card-text">
+              Nhóm ngành Ngôn ngữ <br>
+              Nhóm ngành Kinh tế <br>
+              Nhóm ngành Công nghệ thông tin
+            </p>
+            <a href="#" class="btn btn-primary">Tìm hiểu thêm</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="card card-even">
+          <img class="card-img-top" src="img/quocte.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Đào tạo chính quy liên kết nước ngoài</h5>
+            <p class="card-text">
+              Đại học La Trobe, Úc <br>
+              Đại học Sannio, Italia <br>
+              Đại học IMC KREMS, Áo <br>
+              Đại học OxfordBrookes, Anh <br>
+              Đại học Canberra, Úc <br>
+              Đại học Nữ sinh Nara, Nhật Bản <br>
+              Đại học Louvain, Bỉ <br>
+            </p>
+            <a href="#" class="btn btn-primary">Tìm hiểu thêm</a>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="card card-odd">
+          <img class="card-img-top" src="img/haichuongtrinh.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Học cùng lúc hai chương trình</h5>
+            <p class="card-text">
+              Hanu tuyển sinh Ngành truyền thông doanh nghiệp cho đối tượng học một lúc hai chương trình.
+              Truyền thông doanh nghiệp là gì?
+              Nhu cầu tuyển dụng
+              Học truyền thông doanh nghiệp có thể đảm nhận công việc gì?
+              Học truyền thông doanh nghiệp tại Hanu có lợi thế gì?
+            </p>
+            <a href="#" class="btn btn-primary">Tìm hiểu thêm</a>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="card card-even">
+          <img class="card-img-top" src="img/taichuc.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Học tại chức</h5>
+            <p class="card-text">
+              Ngôn ngữ Anh <br>
+              Ngôn ngữ Trung Quốc <br>
+              Ngôn ngữ Hàn Quốc <br>
+              Ngôn ngữ Nhật <br>
+              </ul>
+            </p>
+            <a href="#" class="btn btn-primary">Tìm hiểu thêm</a>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="card card-odd">
+          <img class="card-img-top" src="img/daotaotuxa.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Chương trình đào tạo từ xa</h5>
+            <p class="card-text">
+              Trường Đại học Hà Nội tuyển sinh Đại học Ngành ngôn ngữ Anh - Hệ Đào tạo từ xa theo chỉ tiêu năm 2015 của Bộ Giáo dục và Đào tạo. Đối tượng tốt nghiệp PTTH hoặc tương đương và có trình độ Tiếng Anh đầu vào (trình độ A).
+            </p>
+            <a href="#" class="btn btn-primary">Tìm hiểu thêm</a>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="card card-even">
+          <img class="card-img-top" src="img/vanbang2.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Văn bằng 2</h5>
+            <p class="card-text">
+              Đại học Hà Nội nhận đào tạo bằng đại học thứ 2 - hệ chính quy, thời gian đào tạo: 3 năm. Tuyển sinh 300 chỉ tiêu mỗi tháng 10 hằng năm,...
+            </p>
+            <a href="#" class="btn btn-primary">Tìm hiểu thêm</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Study aboard -->
+    <section id="thongtinduhoc" class="study-aboard">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="4500" data-pause="hover">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="img/du-hoc-bi.jpg" alt="du-hoc-bi">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/du-hoc-canada.jpg" alt="du-hoc-canada">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/du-hoc-phap.jpg" alt="du-hoc-phap">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/du-hoc-duc.jpg" alt="du-hoc-duc">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/du-hoc-Nhatban.jpg" alt="du-hoc-nhat">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/du-hoc-italia.jpg" alt="du-hoc-y">
+          </div>
+        </div>
+      </div>
+
+      <div class="sa-content">
+        <header class="box-header">
+          <h2>Thông tin du học</h2>
+        </header>
+        <p>Trường Đại học Hà Nội có nhiều chương trình du học. Trong đó có du học các nước thuộc liên minh
+          châu Âu như Pháp, Bỉ, Italia, Đức. Du học châu Mĩ như Canada, ngoài ra còn có du học Nhật Bản...
+        </p>
+        <a href="#" class="btn">Tìm hiểu thêm</a>
+        <hr>
+        <div class="stu-aboard-detail">
+          <ul>
+            <a href="#">Du học Pháp</a>
+          </ul>
+          <ul>
+            <a href="#">Du học Bỉ</a>
+          </ul>
+          <ul>
+            <a href="#">Du học Canada</a>
+          </ul>
+          <ul>
+            <a href="#">Du học Đức</a>
+          </ul>
+          <ul>
+            <a href="#">Du học Nhật Bản</a>
+          </ul>
+          <ul>
+            <a href="#">Du học Italia</a>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Science research -->
+    <section id="nghiencuukhoahoc" class="research">
+      <div class="research-container">
+        <div class="over-view">
+          <header class="box-header">
+            <h2>Nghiên cứu khoa học</h2>
+          </header>
+          <div class="rs-box-content">
+            <h4>Thông tin khoa học</h4>
+            <p><span class="hanu">HANU</span> - Ngày 28/8 vừa qua, Trường Đại học Hà Nội đã tổ chức Hội thảo
+              chuyên đề “Gia tăng nhận diện cho nghiên cứu: Cách tiếp cận mới để gia tăng khả năng công
+              bố quốc tế và trích dẫn cho nghiên cứu”...
+            </p>
+            <h5>Bài viết khác ...</h5>
+            <ul class="more-doc">
+              <li>
+                <a href="#">Về việc tổ chức Hội thảo khoa học quốc tế năm 2019 “Phương pháp nghiên cứu và giảng dạy tiếng Nga trong giai đoạn mới”</a>
+              </li>
+              <li>
+                <a href="#">Khởi động hoạt động của nhóm nghiên cứu dịch thuật Trường Đại học Hà Nội</a>
+              </li>
+              <li>
+                <a href="#">Về việc tổ chức Hội thảo quốc tế “Đổi mới và sáng tạo trong đào tạo nguồn nhân lực toàn cầu</a>
+              </li>
+            </ul>
+            <div class="overview-img">
+              <img src="img/Hanoi3CK.png" alt="hanoi3ck">
+              <p> <br> </p>
+              <img src="img/HanuTuchu.png" alt="HanuTuchu">
+            </div>
+          </div>
+        </div>
+
+        <div class="rs-box research-detail-a">
+          <header class="box-header">
+            <h3>Hoạt động khoa học và công nghệ</h3>
+          </header>
+          <img src="img/hoatdongkhoahoc.jpg" alt="">
+        </div>
+
+
+        <div class="rs-box research-detail-b">
+          <header class="box-header">
+            <h5>Tạp chí khoa học ngoại ngữ</h5>
+          </header>
+          <ul class="more-doc">
+            <li>
+              <a href="#">Tạp chí KHNN số 60 (Tháng 12/2019)</a>
+            </li>
+            <li>
+              <a href="#">Tạp chí KHNN số 59 (Tháng 10/2019)</a>
+            </li>
+            <li>
+              <a href="#">Tạp chí KHNN số 58 (Tháng 3/2019)</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="rs-box research-detail-c">
+          <header class="box-header">
+            <h5>Hội nghị, hội thảo</h5>
+          </header>
+          <ul class="more-doc">
+            <li>
+              <a href="#">TB về Giải thưởng Sinh viên nghiên cứu khoa học - Êureka</a>
+            </li>
+            <li>
+              <a href="#">Hoạt động khoa học của sinh viên trong quý IV năm 2013</a>
+            </li>
+            <li>
+              <a href="#">Tổ chức các công trình tham gia xét chọn giải thưởng “Tài năng khoa học trẻ Việt Nam” năm 2013, quý III, 2013</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </div>
+  </section>
+
+  <!-- Project -->
+  <section class="project container-fliud">
+    <img class="project-img" src="img/alien.jpg" alt="alien">
+    <img class="project-img" src="img/lab_movie.png" alt="lab_movie">
+    <img class="project-img" src="img/marco_polo.jpg" alt="marco_polo">
+    <img class="project-img" src="img/motive.png" alt="motive">
+    <img class="project-img" src="img/pursea.jpg" alt="pursea">
+    <img class="project-img" src="img/voyage.png" alt="voyage">
+  </section>
+
+  <!-- Contact -->
+  <div id="lienhe" class="contact">
+    <div class="contact-items map">
+      <iframe width="100%" height="auto" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+        src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Km%209,%20%C4%91%C6%B0%E1%BB%9Dng%20Nguy%E1%BB%85n%20Tr%C3%A3i,%20qu%E1%BA%ADn%20Nam%20T%E1%BB%AB%20Li%C3%AAm,%20H%C3%A0%20N%E1%BB%99i,%20Vi%E1%BB%87t%20Nam%20Hanoi+(See%20us%20on%20map!)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+      <a href='https://embedmaps.org/'>google maps embed code</a>
+      <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=37f80539c7cafdce85c41dfc0a59250187f28977'></script>
+    </div>
+    <div class="contact-items contact-info">
+      <p>Địa chỉ: Km 9, đường Nguyễn Trãi, quận Nam Từ Liêm, Hà Nội, Việt Nam.<br>
+        Điện thoại: (84-24)38544338; E-mail: hanu@hanu.edu.vn; tuyensinh@hanu.edu.vn<br>
+        Facebook: Tuyển sinh Đại học Hà Nội</p>
+    </div>
+    <div class="contact-items contact-logo">
+      <i class="fab fa-facebook fa-2x"></i>
+      <i class="fab fa-google-plus fa-2x"></i>
+      <i class="fab fa-linkedin-in fa-2x"></i>
+      <i class="fas fa-rss-square fa-2x"></i>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer>
+    <h1>-- Hanu 🖤--</h1>
+  </footer>
+
+  </div>
+  <!-- Wrapper Ends -->
+
+  <!-- Script -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+
+  </script>
+</body>
+
+</html>
